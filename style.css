@@ -1,0 +1,110 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply different font families */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+}
+
+/* Wrappers */
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  min-width: 960px;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #4e2a8e;
+  color: #ffffff;
+  padding: 15px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Main styles */
+main {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+main h2 {
+  margin-top: 20px;
+  font-size: 1.8em;
+  color: #4e2a8e;
+}
+
+/* Trailer */
+.trailer {
+  text-align: center;
+}
+
+.trailer iframe {
+  width: 100%;
+  max-width: 720px;
+  height: 450px;
+}
+
+/* Cast list styles */
+.cast-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.cast-list li {
+  margin-bottom: 10px;
+}
+
+/* Gallery */
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery img {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  background-color: #4e2a8e;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
